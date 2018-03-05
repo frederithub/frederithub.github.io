@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^werdeagilecoach.de [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.werdeagilecoach.de [NC]
+RewriteRule ^(.*)$ http://werdeagilecoach.berlin/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^agileausbildung.(berlin|de) [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.agileausbildung.(berlin|de) [NC]
+RewriteRule ^(.*)$ http://werdeagilecoach.berlin/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^(lerne)?agilecoaching(school)?.(berlin|com|de) [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.(lerne)?agilecoaching(school)?.(berlin|com|de) [NC]
+RewriteRule ^(.*)$ http://werdeagilecoach.berlin/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^skillcoaching.berlin [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.skillcoaching.berlin [NC]
+RewriteRule ^(.*)$ http://werdeagilecoach.berlin/$1 [L,R=301,NC]
