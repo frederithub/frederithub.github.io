@@ -167,7 +167,7 @@ section.success {
       font-size: 1.5em; } }
 
 header.masthead {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center; }
   header.masthead img {
@@ -186,7 +186,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 50px; }
   .intro-text .name {
     font-size: 3.75em; }
