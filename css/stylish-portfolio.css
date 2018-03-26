@@ -313,7 +313,11 @@ section.success {
       color: white;
       border-color: #FFA07A;
       background-color: #FFA07A; }
-
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: white;
+      border-radius: 3px;
+      background: #FFA07A; }
+	  
 @media (min-width: 1200px) {
   #mainNav {
     padding-top: 25px;
@@ -326,10 +330,7 @@ section.success {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
-      border-radius: 3px;
-      background: #FFA07A; }
+    
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: #FFA07A; }
@@ -337,7 +338,7 @@ section.success {
     padding-top: 10px;
     padding-bottom: 10px; }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 2em; } }
+      font-size: 1em; } }
 
 
 header.masthead {
