@@ -11,7 +11,7 @@
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(153, 102, 102, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -20,7 +20,7 @@
 
 .head-item .caption .caption-content {
   color: #FFFFFF;
-  margin: auto 2rem 2rem;
+  margin: 2rem 2rem 2rem;
 }
 
 @media(max-width: 459px) {
@@ -45,7 +45,7 @@
 
 .head-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 }
 
@@ -66,14 +66,20 @@
     margin-bottom: 5rem;
   }
 
+   .head-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  
 .head-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   .head-item:hover .caption {
-    background-color: rgba(255, 69, 0, 0.7);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: rgba(255, 69, 0, 0.9);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   
   
@@ -93,7 +99,7 @@
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(153, 102, 102, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -102,11 +108,13 @@
 
 .portfolio-item .caption .caption-content {
   color: #FFFFFF;
-  margin: auto 2rem 2rem;
+  margin: 2rem 2rem 2rem;
 }
 
+@media(max-width: 999px) {
+
 .portfolio-item .caption .caption-content h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -114,6 +122,21 @@
   font-weight: 300;
   font-size: 0.8rem;
 }
+}
+
+@media(min-width: 993px) {
+
+.portfolio-item .caption .caption-content h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+}
+
 
 @media (min-width: 770px) {
   .portfolio-item {
@@ -127,7 +150,7 @@
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
@@ -137,13 +160,13 @@
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(255, 140, 0, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
 }
 
@@ -575,16 +598,16 @@ footer {
 .btn-success {
   font-weight: 700;
   color: white;
-  border-color: #FF6347;
-  background-color: #BDB76B; }
+  border-color: #FFA500;
+  background-color: #FFA07A; }
   .btn-success.focus, .btn-success:focus {
     color: white;
     border-color: #373737;
     background-color: #FF6347; }
   .btn-success:hover {
     color: white;
-    border-color: #585858;
-    background-color: #F0E68C; }
+    border-color: #FFA07A;
+    background-color: #FFA500; }
   .btn-success.active, .btn-success:active,
   .open > .btn-success.dropdown-toggle {
     color: white;
