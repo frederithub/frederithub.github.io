@@ -77,7 +77,7 @@
     clip-path: inset(1rem);
   }
   .head-item:hover .caption {
-    background-color: rgba(255, 69, 0, 0.9);
+    background-color: rgba(255, 0, 0, 0.9);
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
   }
@@ -87,7 +87,7 @@
   
 
 
-.portfolio-item {
+.portfolio-item1 {
   display: block;
   position: relative;
   overflow: hidden;
@@ -95,7 +95,7 @@
   margin: auto auto 1rem;
 }
 
-.portfolio-item .caption {
+.portfolio-item1 .caption {
   display: flex;
   height: 100%;
   width: 100%;
@@ -106,19 +106,19 @@
   z-index: 1;
 }
 
-.portfolio-item .caption .caption-content {
+.portfolio-item1 .caption .caption-content {
   color: #FFFFFF;
   margin: 2rem 2rem 2rem;
 }
 
 @media(max-width: 999px) {
 
-.portfolio-item .caption .caption-content h2 {
+.portfolio-item1 .caption .caption-content h2 {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-.portfolio-item .caption .caption-content p {
+.portfolio-item1 .caption .caption-content p {
   font-weight: 300;
   font-size: 0.8rem;
 }
@@ -126,12 +126,12 @@
 
 @media(min-width: 993px) {
 
-.portfolio-item .caption .caption-content h2 {
+.portfolio-item1 .caption .caption-content h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
 }
 
-.portfolio-item .caption .caption-content p {
+.portfolio-item1 .caption .caption-content p {
   font-weight: 300;
   font-size: 1rem;
 }
@@ -139,31 +139,31 @@
 
 
 @media (min-width: 770px) {
-  .portfolio-item {
+  .portfolio-item1 {
     max-width: none;
     margin: 0;
   }
-  .portfolio-item .caption {
+  .portfolio-item1 .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
-  .portfolio-item .caption .caption-content {
+  .portfolio-item1 .caption .caption-content {
     transition: opacity 0.25s;
     margin-left: 1.5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
-  .portfolio-item img {
+  .portfolio-item1 img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
-  .portfolio-item:hover img {
+  .portfolio-item1:hover img {
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
   }
-  .portfolio-item:hover .caption {
+  .portfolio-item1:hover .caption {
     background-color: rgba(255, 140, 0, 0.9);
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
@@ -173,7 +173,259 @@
 
 
 
+.portfolio-item2 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
 
+.portfolio-item2 .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(153, 102, 102, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item2 .caption .caption-content {
+  color: #FFFFFF;
+  margin: 2rem 2rem 2rem;
+}
+
+@media(max-width: 999px) {
+
+.portfolio-item2 .caption .caption-content h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item2 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+}
+
+@media(min-width: 993px) {
+
+.portfolio-item2 .caption .caption-content h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item2 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+}
+
+
+@media (min-width: 770px) {
+  .portfolio-item2 {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item2 .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item2 .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 1.5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item2 img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item2:hover img {
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .portfolio-item2:hover .caption {
+    background-color: rgba(255, 69, 0, 0.9);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+}
+
+
+
+
+.portfolio-item3 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
+.portfolio-item3 .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(153, 102, 102, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item3 .caption .caption-content {
+  color: #FFFFFF;
+  margin: 2rem 2rem 2rem;
+}
+
+@media(max-width: 999px) {
+
+.portfolio-item3 .caption .caption-content h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item3 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+}
+
+@media(min-width: 993px) {
+
+.portfolio-item3 .caption .caption-content h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item3 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+}
+
+
+@media (min-width: 770px) {
+  .portfolio-item3 {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item3 .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item3 .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 1.5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item3 img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item3:hover img {
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .portfolio-item3:hover .caption {
+    background-color: rgba(199, 21, 133, 0.9);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+}
+
+
+
+.portfolio-item4 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
+.portfolio-item4 .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(153, 102, 102, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item4 .caption .caption-content {
+  color: #FFFFFF;
+  margin: 2rem 2rem 2rem;
+}
+
+@media(max-width: 999px) {
+
+.portfolio-item4 .caption .caption-content h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item4 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+}
+
+@media(min-width: 993px) {
+
+.portfolio-item4 .caption .caption-content h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item4 .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+}
+
+
+@media (min-width: 770px) {
+  .portfolio-item4 {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item4 .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item4 .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 1.5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item4 img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item4:hover img {
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .portfolio-item4:hover .caption {
+    background-color: rgba(60, 179, 113, 0.9);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+}
 
 
 body {
@@ -281,12 +533,14 @@ section.success {
     padding-right: 16px;
     padding-left: 16px; } }
 
+	
 #mainNav {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #000; }
+  background: black}
+  
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
